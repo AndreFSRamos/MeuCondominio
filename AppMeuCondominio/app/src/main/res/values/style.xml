@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/browser_actions_bg_grey</item>
+        <item name="colorAccent">@color/browser_actions_divider_color</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <!-- Removendo a Action Bar padrão. -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- Configurações da Toolbar -->
+    <style name="AppTheme.Toolbar">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/browser_actions_text_color</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="textAppearanceLargePopupMenu">@style/OverflowMenu</item>
+    </style>
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/browser_actions_text_color</item>
+        <item name="android:textColor">@color/browser_actions_divider_color</item>
+        <item name="android:textSize">@dimen/browser_actions_context_menu_max_width</item>
+    </style>
+    <!-- Configurações da CollapsinToolbar -->
+    <style name="AppTheme.CollapsinToolbarCollapsed" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/cardview_shadow_start_color</item>
+    </style>
+    <style name="AppTheme.CollapsinToolbarExpanded" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- Configurações de texto -->
+    <style name="AppTheme.Light">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="AppTheme.Dark">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="AppTheme.Edittext" parent="AppTheme.Light">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

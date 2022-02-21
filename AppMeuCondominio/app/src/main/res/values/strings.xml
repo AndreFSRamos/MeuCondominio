@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppMeuCondominio</string>
+    <string name="title_activity_pagina_inicial">PaginaInicial</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="Sair">sair</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sair">Sair</string>
+    <string name="financas">Financeiro</string>
+    <string name="financeiro">Financeiro</string>
+    <string name="cadastro_de_moradores">Cadastrar Moradores</string>
+    <string name="todo">TODO</string>
+    <string name="cadastrar_apartamento">Cadastrar Apartamento</string>
+</resources>
