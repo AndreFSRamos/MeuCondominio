@@ -1,2 +1,2 @@
 # MeuCondominio
- APP para gestão de condominios.
+ APP para gestão.
